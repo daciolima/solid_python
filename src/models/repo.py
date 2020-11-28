@@ -6,7 +6,7 @@ class Repo:
         self._stars = stars
 
     @property
-    def ident(self):
+    def id(self):
         return self._id
 
     @property
